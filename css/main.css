@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Gentium+Basic|Raleway');
+h1 {
+    color: white;
+}
+h2 {
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: "Droid Serif", "Lora", Georgia, serif;
+    color: white;
+    ;
+}
+html {
+    margin-bottom: 40px;
+}
+body {
+    font-family: Raleway, "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #00786A;
+}
+footer {
+    color: white;
+}
+.fa-facebook-square:before {
+    content: "\f082";
+    color: blue;
+    background-color: white;
+    margin-right: 20px;
+    background-position: 0px 50px;
+}
+.fa-twitter-square:before {
+    content: "\f081";
+    color: blue;
+    ;
+    background-color: lightblue;
+}
+.fa-youtube-square:before {
+    content: "\f166";
+    color: red;
+    background-color: white;
+    margin-left: 20px;
+}
+.fa-github-square:before {
+    content: "\f092";
+    color: lightgreen;
+    background-color: white;
+    margin-left: 20px;
+}
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 21px font-weight: 200;
+    color: black;
+}
+.navbar-inverse {
+    background-color: #003D36;
+    border-color: #003D36;
+}
+p {
+    color: white;
+}
+.masthead {
+    background-image: url(../img/bright-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: auto;
+    padding: 1px 20px;
+    background-position: fixed;
+}
+li {
+    list-style-type: none;
+}
+.navbar-inverse a.active {
+    color: aquamarine;
+}
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #00D1B9;
+}
+button,
+html input[type=button],
+input[type=reset],
+input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+    background-color: #00FFE2;
+}
+.col-sm-2 {
+    width: 16.66666667%;
+    color: white;
+}
+h4 {
+    font-weight: bold;
+}
+a {
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #00BDA7;
+    border: 1px solid #ddd;
+    color: white;
+}
